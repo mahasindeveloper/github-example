@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1"
+
+        >
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:checkable="true"
+        android:checked="true"
+
+        />
+    <item
+        android:title="Notification"
+        android:icon="@drawable/baseline_notifications_active_24"
+        android:checkable="true"
+        android:checked="true"
+
+
+        />
+    <item
+        android:title="Message"
+        android:icon="@drawable/baseline_chat_24"
+        android:checkable="true"
+        android:checked="true"
+
+
+        />
+    <item
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        android:checkable="true"
+        android:checked="true"
+
+
+        />
+
+    </group>
+
+  <group
+        android:id="@+id/group2"
+      android:checkableBehavior="single"
+
+      >
+
+
+    <item
+        android:title="Video"
+        android:icon="@drawable/video"
+        android:checkable="true"
+        android:checked="true"
+        />
+
+
+     <item
+        android:title="Item"
+        android:icon="@drawable/reels"
+        android:checkable="true"
+        android:checked="true"
+
+
+        />
+    <item
+        android:title="Monetization"
+        android:icon="@drawable/baseline_monetization_on_24"
+        android:checkable="true"
+        android:checked="true"
+
+
+        />
+    <item
+        android:title="Dowload"
+        android:icon="@drawable/baseline_arrow_circle_down_24"
+        android:checkable="true"
+        android:checked="true"
+        />
+
+    </group>
+
+
+
+</menu>

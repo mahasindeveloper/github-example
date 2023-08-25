@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Item"
+        android:icon="@drawable/baseline_favorite_border_24"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/share"
+        android:title="Item"
+        android:icon="@drawable/send"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
+
